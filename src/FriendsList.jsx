@@ -46,6 +46,7 @@ export const FriendsList = ({ initialFriends, setInitialFriends }) => {
 
       {Object.keys(toggleSplit).length > 0 && (
         <SplitForm
+          key={toggleSplit.id}
           toggleSplit={toggleSplit}
           setToggleSplit={setToggleSplit}
           setInitialFriends={setInitialFriends}

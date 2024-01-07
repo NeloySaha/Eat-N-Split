@@ -41,14 +41,6 @@ export const SplitForm = ({
     setToggleSplit({});
   };
 
-  useEffect(() => {
-    setCost({
-      yourExpense: 0,
-      bill: 0,
-      payer: "You",
-    });
-  }, [toggleSplit]);
-
   return (
     <form className="form-split-bill" onSubmit={handleSplit}>
       <h2>Split a bill with {name}</h2>
