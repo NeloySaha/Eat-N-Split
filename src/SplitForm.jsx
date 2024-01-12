@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
 
 export const SplitForm = ({
   toggleSplit,
@@ -63,7 +63,7 @@ export const SplitForm = ({
         onChange={handleChange}
       />
 
-      <label htmlFor="friendExpense">👭 {name}'s Expense:</label>
+      <label htmlFor="friendExpense">👭 {name}&apos;s Expense:</label>
       <input
         type="number"
         id="friendExpense"

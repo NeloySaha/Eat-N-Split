@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Friend } from "./Friend";
 import { AddForm } from "./AddForm";
 import { SplitForm } from "./SplitForm";

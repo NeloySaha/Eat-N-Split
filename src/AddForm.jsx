@@ -1,10 +1,6 @@
 import { useState } from "react";
 
-export const AddForm = ({
-  setInitialFriends,
-  toggleAddForm,
-  setToggleAddForm,
-}) => {
+export const AddForm = ({ setInitialFriends, setToggleAddForm }) => {
   const [info, setInfo] = useState({
     name: "",
     image: "https://i.pravatar.cc/48",
